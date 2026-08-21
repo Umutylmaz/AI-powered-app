@@ -4,6 +4,9 @@
   "workspaces": {
     "": {
       "name": "ai-powered-app",
+      "dependencies": {
+        "zod": "^4.4.3",
+      },
       "devDependencies": {
         "@types/bun": "latest",
         "concurrently": "^10.0.4",
